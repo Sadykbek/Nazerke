@@ -1,0 +1,204 @@
+body {
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container {
+   width: 80%;
+   margin: 0 auto;
+}
+
+.header {
+   background-color: #4C4CFF;
+   color: #ffffff;
+   padding: 20px 0;
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.navbar ul {
+   list-style: none;
+   display: flex;
+   gap: 15px;
+}
+
+.navbar ul li a {
+   color: #ffffff;
+   text-decoration: none;
+   font-weight: 700;
+   transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+   color: #ffd700;
+}
+
+.hero {
+   text-align: center;
+   padding: 60px 0;
+   background-image: url('hero-background.jpg');
+   background-size: cover;
+   background-position: center;
+}
+
+.hero h2 {
+   font-size: 36px;
+   margin-bottom: 20px;
+   color: #ffffff;
+}
+
+.hero p {
+   font-size: 18px;
+   margin-bottom: 20px;
+   color: #ffffff;
+}
+
+.hero button {
+   padding: 15px 30px;
+   font-size: 16px;
+   border: none;
+   background-color: #ffd700;
+   color: #4C4CFF;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.hero button:hover {
+   background-color: #ffbf00;
+}
+
+.catalog {
+   padding: 40px 0;
+}
+
+.catalog h3 {
+   text-align: center;
+   margin-bottom: 40px;
+   font-size: 28px;
+}
+
+.catalog-items {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: space-around;
+}
+
+.catalog-item {
+   width: 22%;
+   text-align: center;
+   padding: 20px;
+   border: 1px solid #e0e0e0;
+   transition: transform 0.3s;
+   background-color: #ffffff;
+}
+
+.catalog-item img {
+   width: 100%;
+   height: auto;
+   margin-bottom: 15px;
+   background-image: url('sneakers.jpg');
+   background-size: cover;
+   background-position: center;
+}
+
+.catalog-item:hover {
+   transform: scale(1.05);
+}
+
+.price {
+   font-weight: 700;
+   color: #4C4CFF;
+}
+
+.about {
+   background-color: #f5f5f5;
+   padding: 40px 0;
+   text-align: center;
+   background-image: url('about-background.jpg');
+   background-size: cover;
+   background-position: center;
+}
+
+.about h3 {
+   font-size: 28px;
+   margin-bottom: 20px;
+}
+
+.team {
+   padding: 40px 0;
+}
+
+.team h3 {
+   text-align: center;
+   margin-bottom: 40px;
+   font-size: 28px;
+}
+
+.team-members {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: space-around;
+}
+
+.team-member {
+   width: 22%;
+   text-align: center;
+   padding: 20px;
+   background-color: #ffffff;
+}
+
+.team-member img {
+   width: 100%;
+   height: auto;
+   border-radius: 50%;
+   margin-bottom: 15px;
+   background-image: url('team-member.jpg');
+   background-size: cover;
+   background-position: center;
+}
+
+.footer {
+   background-color: #4C4CFF;
+   color: #ffffff;
+   padding: 40px 0;
+   text-align: center;
+   background-image: url('footer-background.jpg');
+   background-size: cover;
+   background-position: center;
+}
+
+.footer form {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.footer input, .footer textarea {
+   width: 80%;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+}
+
+.footer button {
+   padding: 10px 20px;
+   border: none;
+   background-color: #ffd700;
+   color: #4C4CFF;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.footer button:hover {
+   background-color: #ffbf00;
+}
